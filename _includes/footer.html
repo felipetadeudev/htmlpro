@@ -1,0 +1,19 @@
+<footer class="py-20 mt-12 border-t border-indigo-200/10 flex flex-col items-center justify-center">
+    <div class="gap-8 grid grid-cols-3 mb-20 justify-items-start items-start max-w-[1024px] mx-auto">
+        <div>
+            <h6 class="mb-6 text-white/50 uppercase font-semibold text-xs">Estamos Aqui para Ajudar</h6>
+            <p class="text-sm">Seja para dúvidas antes de começar, clientes que precisam de assistência ou qualquer outra questão, entre em <a href="mailto:contato@evosync.com.br" class="text-blue-500 underline">contato conosco</a>, e responderemos o mais rápido possível.</p>
+        </div>
+        <div>
+            <h6 class="mb-6 text-white/50 uppercase font-semibold text-xs">Tópicos</h6>
+            <ul class="flex flex-col gap-4 justify-start text-sm">
+                {% for item in site.data.nav.items %}
+                <a href="{{item.url}}">
+                    <li class="text-white hover:underline leading-6">{{item.title}}</li>
+                </a>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+        <span class="text-center text-indigo-200/50 text-sm">HEY foi projetado, construído e é apoiado pela <a href="https://www.evosync.com.br" class="text-blue-500 underline">evosync</a>. Copyright © evosync.com.br. Todos os direitos reservados.</span>
+</footer>

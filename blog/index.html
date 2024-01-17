@@ -1,0 +1,42 @@
+---
+title: Blog
+description:
+---
+
+<section class="py-12">
+  <div class="max-w-[1024px] mx-auto p-4 xl:p-0">
+    <div class="grid gap-8 justify-items-center">
+      <ul class="grid w-full gap-8">
+        {% for post in paginator.posts %}
+        <a href="{{post.url}}">
+          <li class="bg-indigo-200/5 w-full p-4 rounded-xl flex gap-6 items-center justify-start">
+            <div class="flex flex-col items-center justify-center w-20 bg-indigo-200/5 p-2 rounded">
+              <span class="text-4xl font-bold">
+                {{post.date | date: '%d'}}
+              </span>
+              <span class="flex items-center">
+                {{post.date | date: '%b, %Y'}}
+              </span>
+            </div>
+            <div class="flex-1">
+              <h3 class="text-2xl font-bold text-ellipsis">
+                {{post.title | truncatewords: 20}}
+              </h3>
+              {{ post.excerpt }}
+            </div>
+          </li>
+        </a>
+        {% endfor %}
+      </ul>
+      {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}">
+
+        <div class="btn-secondary">
+          Ver mais posts&hellip;
+
+        </div>
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</section>

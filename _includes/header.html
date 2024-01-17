@@ -1,0 +1,19 @@
+<header class="py-8">
+    <div class="max-w-[1200px] mx-auto xl:px-0 px-4">
+        <div class="flex items-center justify-between">
+            <span>logo</span>
+            <nav class="flex items-center gap-12">
+                <ul class="flex items-center gap-12">
+                    {% for item in site.data.nav.items %}
+                    <a href="{{item.url}}" class="hover:text-indigo-500">{{item.title}}</a>
+                    {% endfor %}
+                </ul>
+            <a href="mailto:contato@evosync.com.br">
+                <div class="btn-secondary">
+                    Entrar em contato
+                </div>
+            </a>
+            </nav>
+        </div>
+    </div>
+</header>

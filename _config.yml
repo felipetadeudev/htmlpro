@@ -1,0 +1,38 @@
+url: ''
+baseurl: ''
+title: 'Jekyllwind'
+
+plugins:
+  - jekyll-postcss
+  - jekyll-feed
+  - jekyll-paginate
+
+postcss:
+  cache: false
+
+exclude:
+  - package.json
+  - postcss.config.js
+  - tailwind.config.js
+  - yarn.lock
+
+collections:
+  pages:
+    output: true
+    permalink: "/:name"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: "/blog/:year/:i_month/:i_day/:title"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+paginate: 5
+paginate_path: "/blog/page/:num"

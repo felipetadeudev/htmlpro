@@ -1,0 +1,33 @@
+items:
+  - title: "Html"
+    url: "/assets/images/html.svg"
+
+  - title: "Css"
+    url: "/assets/images/css.svg"
+
+  - title: "Javascript"
+    url: "/assets/images/js.svg"
+
+  - title: "Bootstrap"
+    url: "/assets/images/bootstrap.svg"
+
+  - title: "Tailwindcss"
+    url: "/assets/images/tailwind.svg"
+
+  - title: "React"
+    url: "/assets/images/react.svg"
+
+  - title: "Svelte"
+    url: "/assets/images/svelte.svg"
+
+  - title: "Nextjs"
+    url: "/assets/images/nextjs.svg"
+
+  - title: "Sass"
+    url: "/assets/images/sass.svg"
+
+  - title: "Jekyll"
+    url: "/assets/images/jekyll.avif"
+
+  - title: "Ruby"
+    url: "/assets/images/ruby.svg"
