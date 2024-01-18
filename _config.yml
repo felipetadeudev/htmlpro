@@ -4,7 +4,10 @@ title: 'Não tem nome ainda'
 
 plugins:
   - jekyll-postcss
+  - jekyll-feed
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 postcss:
   cache: false
