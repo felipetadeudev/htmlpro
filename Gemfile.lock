@@ -72,6 +72,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  google-protobuf (= 3.25.2)
   jekyll
   jekyll-feed
   jekyll-paginate
