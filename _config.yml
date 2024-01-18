@@ -5,8 +5,6 @@ title: 'Não tem nome ainda'
 plugins:
   - jekyll-postcss
   - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-seo-tag
 
 postcss:
   cache: false
