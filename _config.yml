@@ -9,9 +9,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-postcss:
-  cache: false
-
 exclude:
   - package.json
   - postcss.config.js
