@@ -61,6 +61,18 @@ GEM
     rexml (3.2.6)
     rouge (4.2.0)
     safe_yaml (1.0.5)
+    sass-embedded (1.70.0-aarch64-linux-android)
+      google-protobuf (~> 3.25)
+    sass-embedded (1.70.0-arm-linux-androideabi)
+      google-protobuf (~> 3.25)
+    sass-embedded (1.70.0-arm-linux-gnueabihf)
+      google-protobuf (~> 3.25)
+    sass-embedded (1.70.0-arm-linux-musleabihf)
+      google-protobuf (~> 3.25)
+    sass-embedded (1.70.0-x86-linux-android)
+      google-protobuf (~> 3.25)
+    sass-embedded (1.70.0-x86_64-linux-android)
+      google-protobuf (~> 3.25)
     sass-embedded (1.70.0-x86_64-linux-gnu)
       google-protobuf (~> 3.25)
     terminal-table (3.0.2)
@@ -69,11 +81,16 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  aarch64-linux-android
+  arm-linux-androideabi
+  arm-linux-gnueabihf
+  arm-linux-musleabihf
+  x86-linux-android
   x86_64-linux
+  x86_64-linux-android
 
 DEPENDENCIES
-  google-protobuf (= 3.25.2)
-  jekyll
+  jekyll (~> 4.3.3)
   jekyll-feed
   jekyll-paginate
   jekyll-postcss
@@ -85,4 +102,4 @@ RUBY VERSION
    ruby 3.3.0p0
 
 BUNDLED WITH
-   2.5.3
+   2.5.4
