@@ -37,6 +37,10 @@ GEM
     jekyll-postcss (0.5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
+    jekyll-seo-tag (2.8.0)
+      jekyll (>= 3.8, < 5.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.4.0)
@@ -57,18 +61,6 @@ GEM
     rexml (3.2.6)
     rouge (4.2.0)
     safe_yaml (1.0.5)
-    sass-embedded (1.70.0-aarch64-linux-android)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.70.0-arm-linux-androideabi)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.70.0-arm-linux-gnueabihf)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.70.0-arm-linux-musleabihf)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.70.0-x86-linux-android)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.70.0-x86_64-linux-android)
-      google-protobuf (~> 3.25)
     sass-embedded (1.70.0-x86_64-linux-gnu)
       google-protobuf (~> 3.25)
     terminal-table (3.0.2)
@@ -77,22 +69,15 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
-  aarch64-linux-android
-  arm-linux-androideabi
-  arm-linux-gnueabihf
-  arm-linux-musleabihf
-  x86-linux-android
   x86_64-linux
-  x86_64-linux-android
 
 DEPENDENCIES
   jekyll
-  jekyll-feed (~> 0.12)
+  jekyll-feed
   jekyll-paginate
   jekyll-postcss
-  tzinfo (~> 1.2)
-  tzinfo-data
-  wdm (~> 0.1.1)
+  jekyll-seo-tag
+  jekyll-sitemap
   webrick
 
 BUNDLED WITH
