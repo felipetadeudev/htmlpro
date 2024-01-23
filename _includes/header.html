@@ -1,18 +1,26 @@
-<header class="py-8">
+<header class="py-8 relative">
     <div class="max-w-[1200px] mx-auto xl:px-0 px-4">
         <div class="flex items-center justify-between">
-            <span>logo</span>
-            <nav class="flex items-center gap-12">
-                <ul class="flex items-center gap-12">
+            <nav class="nav flex items-center gap-12 justify-between w-full relative">
+                <span class="z-20">logo</span>
+                <input type="checkbox" name="nav-active" id="nav-active" class="nav-active hidden">
+                <label for="nav-active" class="nav__toggle lg:hidden z-30 absolute top-0 right-0 w-10">
+                    <span>Menu</span>
+                </label>
+                <div class="nav__underlay hidden fixed top-0 left-0 w-full h-full bg-black/50 z-10 backdrop-blur-sm"></div>
+                <ul
+                    class="nav__options z-20 hidden lg:flex flex-col lg:flex-row w-full lg:w-auto lg:mt-0 lg:bg-transparent bg-white/70 backdrop-blur-xl lg:text-indigo-100 text-black font-bold lg:font-normal lg:py-0 py-20 rounded-b-xl items-center gap-12 fixed lg:static top-0 right-0">
                     {% for item in site.data.nav.items %}
                     <a href="{{item.url}}" class="hover:text-indigo-500">{{item.title}}</a>
                     {% endfor %}
+                    <li>
+                        <a href="mailto:contato@evosync.com.br">
+                            <div class="btn-secondary">
+                                Entrar em contato
+                            </div>
+                        </a>
+                    </li>
                 </ul>
-            <a href="mailto:contato@evosync.com.br">
-                <div class="btn-secondary">
-                    Entrar em contato
-                </div>
-            </a>
             </nav>
         </div>
     </div>
