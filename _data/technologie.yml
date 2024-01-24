@@ -25,9 +25,3 @@ items:
 
   - title: "Sass"
     url: "/assets/images/sass.svg"
-
-  - title: "Jekyll"
-    url: "/assets/images/jekyll.avif"
-
-  - title: "Ruby"
-    url: "/assets/images/ruby.svg"

@@ -1,6 +1,6 @@
 url: ''
 baseurl: ''
-title: 'Não tem nome ainda'
+title: 'HTML Pro'
 
 plugins:
   - jekyll-postcss
