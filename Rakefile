@@ -12,3 +12,14 @@ task :dev do
   Process.wait(jekyll_serve_pid)
   Process.wait(tailwind_pid)
   end
+
+  # Rakefile
+
+task :build do
+   if ENV['JEKYLL_ENV'] == 'production'
+     # Executa o Jekyll com a flag --minify para ambiente de produção
+     sh './tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/main.css --minify'
+     sh 'bundle exec jekyll build'
+   end
+ end
+ 
