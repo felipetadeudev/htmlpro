@@ -3,7 +3,6 @@ baseurl: ''
 title: 'HTML Pro'
 
 plugins:
-  - jekyll-postcss
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
@@ -13,10 +12,7 @@ postcss:
   cache: false
 
 exclude:
-  - package.json
-  - postcss.config.js
   - tailwind.config.js
-  - yarn.lock
 
 collections:
   pages:

@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply bg-gradient-to-r from-[#ec4899] to-[#f87171] hover:brightness-90 text-base px-10 py-3 rounded-sm text-white cursor-pointer
+    }
+
+    .btn-secondary {
+        @apply bg-[#4F46E5] hover:brightness-90 text-base px-4 py-2 rounded-sm text-white cursor-pointer
+    }
+
+}
+
+nav:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 16rem;
+    width: 16rem;
+    background: #4a61dd;
+    opacity: .3;
+    filter: blur(100px);
+    z-index: -1;
+}
+
+.nav-active:checked ~ .nav__options {
+    display: flex;
+}
+.nav-active:checked ~ .nav__toggle span {
+    text-decoration: underline;
+    text-underline-offset: .3rem;
+    color: black;
+    position: fixed;
+}
+.nav-active:checked ~ .nav__underlay {
+    display: block;
+}
