@@ -8,11 +8,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-postcss:
-  cache: false
-
 exclude:
   - tailwind.config.js
+  - tailwindcss
 
 collections:
   pages:
