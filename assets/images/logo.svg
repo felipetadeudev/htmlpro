@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="55.195499mm"
+   height="9.4616156mm"
+   viewBox="0 0 55.195499 9.4616156"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient2">
+      <stop
+         style="stop-color:#ec4899;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+      <stop
+         style="stop-color:#f87171;stop-opacity:1;"
+         offset="1"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient2"
+       id="linearGradient3"
+       x1="73.613235"
+       y1="130.50868"
+       x2="93.205566"
+       y2="130.50868"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-59.281942,-113.85713)">
+    <g
+       id="g4">
+      <text
+         xml:space="preserve"
+         style="font-size:13.5166px;fill:#ffffff;stroke:none;stroke-width:1.12638"
+         x="58.335781"
+         y="123.31874"
+         id="text1"><tspan
+           id="tspan1"
+           style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold';fill:#ffffff;stroke:none;stroke-width:1.12638"
+           x="58.335781"
+           y="123.31874">HTML</tspan></text>
+      <g
+         id="g3"
+         transform="matrix(0.98324944,0,0,0.98324944,22.833125,-11.224636)">
+        <rect
+           style="fill:url(#linearGradient3);stroke:none;stroke-width:0.264583"
+           id="rect2"
+           width="19.592329"
+           height="6.5307765"
+           x="73.613235"
+           y="127.24329" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:6.32699px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Ultra-Bold';fill:#000000;stroke:none;stroke-width:0.527248"
+           x="75.978355"
+           y="132.72313"
+           id="text2"><tspan
+             id="tspan2"
+             style="fill:#ffffff;stroke:none;stroke-width:0.527248"
+             x="75.978355"
+             y="132.72313">PRO</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
