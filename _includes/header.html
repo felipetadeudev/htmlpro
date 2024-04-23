@@ -1,9 +1,10 @@
-<header class="py-8 relative">
-    <div class="max-w-[1200px] mx-auto xl:px-0 px-4">
+<header class="py-4 fixed w-full mx-auto shadow-[0_1px_0_0_rgba(0,0,0,0.2)]">
+    <div class="w-full h-full backdrop-blur-md z-10 bg-black/20 absolute top-0 left-0"></div>
+    <div class="max-w-[1200px] mx-auto xl:px-0 px-4 relative z-20">
         <div class="flex items-center justify-between">
             <nav class="nav flex items-center gap-12 justify-between w-full relative">
                 <a href="/">
-                    <img src="/assets/images/logo.svg" alt="HTML Pro" width="200">
+                    <img src="/assets/images/logo.svg" alt="HTML Pro" width="150">
 
                 </a>
                 <input type="checkbox" name="nav-active" id="nav-active" class="nav-active hidden">
@@ -13,7 +14,7 @@
                 <div class="nav__underlay hidden fixed top-0 left-0 w-full h-full bg-black/50 z-10 backdrop-blur-sm">
                 </div>
                 <ul
-                    class="nav__options z-20 hidden lg:flex flex-col lg:flex-row w-full lg:w-auto lg:mt-0 lg:bg-transparent bg-white/70 backdrop-blur-xl lg:text-indigo-50 text-black font-bold lg:font-normal lg:py-0 py-20 rounded-b-xl items-center gap-12 fixed lg:static top-0 right-0">
+                    class="nav__options z-20 hidden lg:flex flex-col lg:flex-row w-full lg:w-auto lg:mt-0 lg:bg-transparent bg-white/70 lg:backdrop-blur-none backdrop-blur-xl lg:text-indigo-50 text-black font-bold lg:font-normal lg:py-0 py-20 rounded-b-xl items-center gap-12 fixed lg:static top-0 right-0">
                     {% for item in site.data.nav.items %}
                     <a href="{{item.url}}" class="hover:text-indigo-500">{{item.title}}</a>
                     {% endfor %}
