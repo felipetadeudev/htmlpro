@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .btn-primary {
   cursor: pointer;
   border-radius: 0.125rem;
@@ -20,6 +24,8 @@
   line-height: 1.5rem;
   color: white;
 }
+
+
 
 nav:before {
   content: "";
@@ -47,4 +53,28 @@ nav:before {
 
 .nav-active:checked~.nav__underlay {
   display: block;
+}
+
+.nav--product::after {
+  content: "";
+  width: 12em;
+}
+
+.product .list {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.product .list dd {
+  font-weight: 400;
+  margin-left: 1.4rem;
+  display: flex;
+  align-items: start;
+  color: rgba(238,242,255, .8);
+  margin-bottom: 1rem;
+}
+
+.product .list dd::before {
+  content: "\25CF";
+  margin-right: .5rem;
 }

@@ -1,8 +1,8 @@
-<header class="py-4 fixed w-full mx-auto shadow-[0_1px_0_0_rgba(0,0,0,0.2)]">
+<header class="pt-5 fixed w-full mx-auto shadow-[0_1px_0_0_rgba(0,0,0,0.2)] h-[4em]">
     <div class="w-full h-full backdrop-blur-md z-10 bg-black/20 absolute top-0 left-0"></div>
-    <div class="max-w-[1200px] mx-auto xl:px-0 px-4 relative z-20">
+    <div class="max-w-[1200px] mx-auto px-6 relative z-20 h-full">
         <div class="flex items-center justify-between">
-            <nav class="nav flex items-center gap-12 justify-between w-full relative">
+            <nav class="nav nav--product flex items-center gap-12 justify-between w-full relative">
                 <a href="/">
                     <img src="/assets/images/logo.svg" alt="HTML Pro" width="150">
 
@@ -18,13 +18,6 @@
                     {% for item in site.data.nav.items %}
                     <li><a href="{{item.url}}" class="hover:text-indigo-500">{{item.title}}</a></li>
                     {% endfor %}
-                    <li>
-                        <a href="/wordpresstohtml">
-                            <div class="btn-secondary">
-                                Converter Wordpress para HTML
-                            </div>
-                        </a>
-                    </li>
                 </ul>
             </nav>
         </div>
